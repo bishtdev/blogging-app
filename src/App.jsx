@@ -6,8 +6,8 @@ function App() {
   
 
   return (
-   <div className='App'>
-    <h1> Blog Platform</h1>
+   <div className='flex flex-col items-center'>
+    <h1 className='font-bold text-5xl text-[#cab682]'> Blog Platform</h1>
     <CreatePost/>
     <BlogList/>
    </div>

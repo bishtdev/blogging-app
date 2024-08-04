@@ -12,9 +12,9 @@ const BlogPost = ({post}) => {
     }
 
   return (
-    <div>
-        <h2> {post.title}</h2>
-        <p> {post.content}</p>
+    <div className=''>
+        <h2 className='block'> {post.title}</h2>
+        <p className='block'> {post.content}</p>
         <button onClick={handleDelete}> Delete</button>
         <EditPost post={post}/>
     </div>
