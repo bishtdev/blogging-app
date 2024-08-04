@@ -1,0 +1,26 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, textarea {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+}
